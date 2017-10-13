@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "degrees in Fahrenheit"; ObjectID = "0do-5X-buW"; */
+"0do-5X-buW.text" = "degrees in Fahrenheit";
+
+/* Class = "UILabel"; text = "100"; ObjectID = "1mZ-oC-8FL"; */
+"1mZ-oC-8FL.text" = "100";
+
+/* Class = "UILabel"; text = "is really"; ObjectID = "2C6-lR-xML"; */
+"2C6-lR-xML.text" = "is really";
+
+/* Class = "UITextField"; placeholder = "value"; ObjectID = "dJh-O6-3UJ"; */
+"dJh-O6-3UJ.placeholder" = "value";
+
+/* Class = "UILabel"; text = "degrees Celsius"; ObjectID = "gB1-DD-7mp"; */
+"gB1-DD-7mp.text" = "degrees Celsius";

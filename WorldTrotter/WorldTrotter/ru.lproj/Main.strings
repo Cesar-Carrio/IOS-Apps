@@ -1,0 +1,24 @@
+
+/* Class = "UILabel"; text = "degrees in Fahrenheit"; ObjectID = "0do-5X-buW"; */
+"0do-5X-buW.text" = "градусы по Фаренгейту";
+
+/* Class = "UILabel"; text = "100"; ObjectID = "1mZ-oC-8FL"; */
+"1mZ-oC-8FL.text" = "100";
+
+/* Class = "UILabel"; text = "is really"; ObjectID = "2C6-lR-xML"; */
+"2C6-lR-xML.text" = "действительно";
+
+/* Class = "UITabBarItem"; title = "Convert"; ObjectID = "Q10-1J-PE6"; */
+"Q10-1J-PE6.title" = "Конвертировать";
+
+/* Class = "UITabBarItem"; title = "Map"; ObjectID = "d8I-1a-Hq5"; */
+"d8I-1a-Hq5.title" = "карта";
+
+/* Class = "UITextField"; placeholder = "value"; ObjectID = "dJh-O6-3UJ"; */
+"dJh-O6-3UJ.placeholder" = "стоимость";
+
+/* Class = "UILabel"; text = "degrees Celsius"; ObjectID = "gB1-DD-7mp"; */
+"gB1-DD-7mp.text" = "градусы по Цельсию";
+
+/* Class = "UITabBarItem"; title = "Web"; ObjectID = "h0j-pR-Xqn"; */
+"h0j-pR-Xqn.title" = "интернет";

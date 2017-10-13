@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E2EA72D1F8A11C60042733D /* Enemy.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0E2EA72C1F8A11C60042733D /* Enemy.sks */; };
+		0E2EA72F1F8A1B2C0042733D /* Asteroids.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0E2EA72E1F8A1B2C0042733D /* Asteroids.sks */; };
+		0E2EA7311F8A258A0042733D /* Stars.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0E2EA7301F8A258A0042733D /* Stars.sks */; };
+		0E7DBA521F884D0B00EA9581 /* mainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7DBA511F884D0B00EA9581 /* mainMenu.swift */; };
+		0ED245CB1F88381D00AF555F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED245CA1F88381D00AF555F /* AppDelegate.swift */; };
+		0ED245CD1F88381D00AF555F /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0ED245CC1F88381D00AF555F /* GameScene.sks */; };
+		0ED245D11F88381D00AF555F /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED245D01F88381D00AF555F /* GameScene.swift */; };
+		0ED245D31F88381D00AF555F /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED245D21F88381D00AF555F /* GameViewController.swift */; };
+		0ED245D61F88381D00AF555F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ED245D41F88381D00AF555F /* Main.storyboard */; };
+		0ED245D81F88381D00AF555F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ED245D71F88381D00AF555F /* Assets.xcassets */; };
+		0ED245DB1F88381D00AF555F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ED245D91F88381D00AF555F /* LaunchScreen.storyboard */; };
+		0ED245E61F88381D00AF555F /* VoyagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED245E51F88381D00AF555F /* VoyagerTests.swift */; };
+		0ED245F11F88381D00AF555F /* VoyagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED245F01F88381D00AF555F /* VoyagerUITests.swift */; };
+		0ED245FF1F88384E00AF555F /* Laser.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0ED245FE1F88384E00AF555F /* Laser.sks */; };
+		0ED246011F88393D00AF555F /* mainMenu.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0ED246001F88393D00AF555F /* mainMenu.sks */; };
+		0EEDD1BD1F899DDC002B222D /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0EEDD1BB1F899DDC002B222D /* Explosion.sks */; };
+		0EEDD1BE1F899DDC002B222D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EEDD1BC1F899DDC002B222D /* Assets.xcassets */; };
+		0EEDD1C01F89B591002B222D /* afterBurner.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0EEDD1BF1F89B591002B222D /* afterBurner.sks */; };
+		0EEDD1C21F89ED18002B222D /* laser.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0EEDD1C11F89ED18002B222D /* laser.wav */; };
+		0EEDD1C41F89ED2A002B222D /* explosion.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0EEDD1C31F89ED2A002B222D /* explosion.wav */; };
+		0EEDD1C61F89ED3B002B222D /* music.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0EEDD1C51F89ED3B002B222D /* music.m4a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0ED245E21F88381D00AF555F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0ED245BF1F88381D00AF555F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0ED245C61F88381D00AF555F;
+			remoteInfo = Voyager;
+		};
+		0ED245ED1F88381D00AF555F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0ED245BF1F88381D00AF555F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0ED245C61F88381D00AF555F;
+			remoteInfo = Voyager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E2EA72C1F8A11C60042733D /* Enemy.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Enemy.sks; sourceTree = "<group>"; };
+		0E2EA72E1F8A1B2C0042733D /* Asteroids.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Asteroids.sks; sourceTree = "<group>"; };
+		0E2EA7301F8A258A0042733D /* Stars.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Stars.sks; sourceTree = "<group>"; };
+		0E7DBA511F884D0B00EA9581 /* mainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainMenu.swift; sourceTree = "<group>"; };
+		0ED245C71F88381D00AF555F /* Voyager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Voyager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ED245CA1F88381D00AF555F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0ED245CC1F88381D00AF555F /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		0ED245D01F88381D00AF555F /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		0ED245D21F88381D00AF555F /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		0ED245D51F88381D00AF555F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0ED245D71F88381D00AF555F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0ED245DA1F88381D00AF555F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0ED245DC1F88381D00AF555F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0ED245E11F88381D00AF555F /* VoyagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoyagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ED245E51F88381D00AF555F /* VoyagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoyagerTests.swift; sourceTree = "<group>"; };
+		0ED245E71F88381D00AF555F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0ED245EC1F88381D00AF555F /* VoyagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoyagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ED245F01F88381D00AF555F /* VoyagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoyagerUITests.swift; sourceTree = "<group>"; };
+		0ED245F21F88381D00AF555F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0ED245FE1F88384E00AF555F /* Laser.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Laser.sks; sourceTree = "<group>"; };
+		0ED246001F88393D00AF555F /* mainMenu.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = mainMenu.sks; sourceTree = "<group>"; };
+		0EEDD1BB1F899DDC002B222D /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
+		0EEDD1BC1F899DDC002B222D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0EEDD1BF1F89B591002B222D /* afterBurner.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = afterBurner.sks; sourceTree = "<group>"; };
+		0EEDD1C11F89ED18002B222D /* laser.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = laser.wav; sourceTree = "<group>"; };
+		0EEDD1C31F89ED2A002B222D /* explosion.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = explosion.wav; sourceTree = "<group>"; };
+		0EEDD1C51F89ED3B002B222D /* music.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = music.m4a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0ED245C41F88381D00AF555F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ED245DE1F88381D00AF555F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ED245E91F88381D00AF555F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0ED245BE1F88381D00AF555F = {
+			isa = PBXGroup;
+			children = (
+				0ED245C91F88381D00AF555F /* Voyager */,
+				0ED245E41F88381D00AF555F /* VoyagerTests */,
+				0ED245EF1F88381D00AF555F /* VoyagerUITests */,
+				0ED245C81F88381D00AF555F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0ED245C81F88381D00AF555F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0ED245C71F88381D00AF555F /* Voyager.app */,
+				0ED245E11F88381D00AF555F /* VoyagerTests.xctest */,
+				0ED245EC1F88381D00AF555F /* VoyagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0ED245C91F88381D00AF555F /* Voyager */ = {
+			isa = PBXGroup;
+			children = (
+				0EEDD1C51F89ED3B002B222D /* music.m4a */,
+				0EEDD1C31F89ED2A002B222D /* explosion.wav */,
+				0EEDD1C11F89ED18002B222D /* laser.wav */,
+				0ED246031F8839A300AF555F /* gameScene */,
+				0ED246021F88398A00AF555F /* mainMenu */,
+				0ED245CA1F88381D00AF555F /* AppDelegate.swift */,
+				0ED245D41F88381D00AF555F /* Main.storyboard */,
+				0ED245D71F88381D00AF555F /* Assets.xcassets */,
+				0ED245D91F88381D00AF555F /* LaunchScreen.storyboard */,
+				0ED245DC1F88381D00AF555F /* Info.plist */,
+			);
+			path = Voyager;
+			sourceTree = "<group>";
+		};
+		0ED245E41F88381D00AF555F /* VoyagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				0ED245E51F88381D00AF555F /* VoyagerTests.swift */,
+				0ED245E71F88381D00AF555F /* Info.plist */,
+			);
+			path = VoyagerTests;
+			sourceTree = "<group>";
+		};
+		0ED245EF1F88381D00AF555F /* VoyagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0ED245F01F88381D00AF555F /* VoyagerUITests.swift */,
+				0ED245F21F88381D00AF555F /* Info.plist */,
+			);
+			path = VoyagerUITests;
+			sourceTree = "<group>";
+		};
+		0ED246021F88398A00AF555F /* mainMenu */ = {
+			isa = PBXGroup;
+			children = (
+				0ED246001F88393D00AF555F /* mainMenu.sks */,
+				0E7DBA511F884D0B00EA9581 /* mainMenu.swift */,
+			);
+			path = mainMenu;
+			sourceTree = "<group>";
+		};
+		0ED246031F8839A300AF555F /* gameScene */ = {
+			isa = PBXGroup;
+			children = (
+				0E2EA72E1F8A1B2C0042733D /* Asteroids.sks */,
+				0E2EA7301F8A258A0042733D /* Stars.sks */,
+				0ED245FE1F88384E00AF555F /* Laser.sks */,
+				0E2EA72C1F8A11C60042733D /* Enemy.sks */,
+				0ED245D21F88381D00AF555F /* GameViewController.swift */,
+				0ED245CC1F88381D00AF555F /* GameScene.sks */,
+				0ED245D01F88381D00AF555F /* GameScene.swift */,
+				0EEDD1BF1F89B591002B222D /* afterBurner.sks */,
+				0EEDD1BB1F899DDC002B222D /* Explosion.sks */,
+				0EEDD1BC1F899DDC002B222D /* Assets.xcassets */,
+			);
+			path = gameScene;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0ED245C61F88381D00AF555F /* Voyager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0ED245F51F88381D00AF555F /* Build configuration list for PBXNativeTarget "Voyager" */;
+			buildPhases = (
+				0ED245C31F88381D00AF555F /* Sources */,
+				0ED245C41F88381D00AF555F /* Frameworks */,
+				0ED245C51F88381D00AF555F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Voyager;
+			productName = Voyager;
+			productReference = 0ED245C71F88381D00AF555F /* Voyager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0ED245E01F88381D00AF555F /* VoyagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0ED245F81F88381D00AF555F /* Build configuration list for PBXNativeTarget "VoyagerTests" */;
+			buildPhases = (
+				0ED245DD1F88381D00AF555F /* Sources */,
+				0ED245DE1F88381D00AF555F /* Frameworks */,
+				0ED245DF1F88381D00AF555F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0ED245E31F88381D00AF555F /* PBXTargetDependency */,
+			);
+			name = VoyagerTests;
+			productName = VoyagerTests;
+			productReference = 0ED245E11F88381D00AF555F /* VoyagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0ED245EB1F88381D00AF555F /* VoyagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0ED245FB1F88381D00AF555F /* Build configuration list for PBXNativeTarget "VoyagerUITests" */;
+			buildPhases = (
+				0ED245E81F88381D00AF555F /* Sources */,
+				0ED245E91F88381D00AF555F /* Frameworks */,
+				0ED245EA1F88381D00AF555F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0ED245EE1F88381D00AF555F /* PBXTargetDependency */,
+			);
+			name = VoyagerUITests;
+			productName = VoyagerUITests;
+			productReference = 0ED245EC1F88381D00AF555F /* VoyagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0ED245BF1F88381D00AF555F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Cesar Carrillo";
+				TargetAttributes = {
+					0ED245C61F88381D00AF555F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					0ED245E01F88381D00AF555F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0ED245C61F88381D00AF555F;
+					};
+					0ED245EB1F88381D00AF555F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0ED245C61F88381D00AF555F;
+					};
+				};
+			};
+			buildConfigurationList = 0ED245C21F88381D00AF555F /* Build configuration list for PBXProject "Voyager" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0ED245BE1F88381D00AF555F;
+			productRefGroup = 0ED245C81F88381D00AF555F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0ED245C61F88381D00AF555F /* Voyager */,
+				0ED245E01F88381D00AF555F /* VoyagerTests */,
+				0ED245EB1F88381D00AF555F /* VoyagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0ED245C51F88381D00AF555F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E2EA72D1F8A11C60042733D /* Enemy.sks in Resources */,
+				0EEDD1C21F89ED18002B222D /* laser.wav in Resources */,
+				0ED245D61F88381D00AF555F /* Main.storyboard in Resources */,
+				0EEDD1C61F89ED3B002B222D /* music.m4a in Resources */,
+				0ED245CD1F88381D00AF555F /* GameScene.sks in Resources */,
+				0E2EA7311F8A258A0042733D /* Stars.sks in Resources */,
+				0EEDD1C41F89ED2A002B222D /* explosion.wav in Resources */,
+				0ED245D81F88381D00AF555F /* Assets.xcassets in Resources */,
+				0ED245FF1F88384E00AF555F /* Laser.sks in Resources */,
+				0ED245DB1F88381D00AF555F /* LaunchScreen.storyboard in Resources */,
+				0EEDD1BD1F899DDC002B222D /* Explosion.sks in Resources */,
+				0E2EA72F1F8A1B2C0042733D /* Asteroids.sks in Resources */,
+				0EEDD1BE1F899DDC002B222D /* Assets.xcassets in Resources */,
+				0EEDD1C01F89B591002B222D /* afterBurner.sks in Resources */,
+				0ED246011F88393D00AF555F /* mainMenu.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ED245DF1F88381D00AF555F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ED245EA1F88381D00AF555F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0ED245C31F88381D00AF555F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ED245D11F88381D00AF555F /* GameScene.swift in Sources */,
+				0ED245D31F88381D00AF555F /* GameViewController.swift in Sources */,
+				0ED245CB1F88381D00AF555F /* AppDelegate.swift in Sources */,
+				0E7DBA521F884D0B00EA9581 /* mainMenu.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ED245DD1F88381D00AF555F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ED245E61F88381D00AF555F /* VoyagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ED245E81F88381D00AF555F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ED245F11F88381D00AF555F /* VoyagerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0ED245E31F88381D00AF555F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0ED245C61F88381D00AF555F /* Voyager */;
+			targetProxy = 0ED245E21F88381D00AF555F /* PBXContainerItemProxy */;
+		};
+		0ED245EE1F88381D00AF555F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0ED245C61F88381D00AF555F /* Voyager */;
+			targetProxy = 0ED245ED1F88381D00AF555F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0ED245D41F88381D00AF555F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0ED245D51F88381D00AF555F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0ED245D91F88381D00AF555F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0ED245DA1F88381D00AF555F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0ED245F31F88381D00AF555F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0ED245F41F88381D00AF555F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0ED245F61F88381D00AF555F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S8L529EQAT;
+				INFOPLIST_FILE = Voyager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cesarjcarrillo.Voyager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		0ED245F71F88381D00AF555F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S8L529EQAT;
+				INFOPLIST_FILE = Voyager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cesarjcarrillo.Voyager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		0ED245F91F88381D00AF555F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S8L529EQAT;
+				INFOPLIST_FILE = VoyagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cesarjcarrillo.VoyagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Voyager.app/Voyager";
+			};
+			name = Debug;
+		};
+		0ED245FA1F88381D00AF555F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S8L529EQAT;
+				INFOPLIST_FILE = VoyagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cesarjcarrillo.VoyagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Voyager.app/Voyager";
+			};
+			name = Release;
+		};
+		0ED245FC1F88381D00AF555F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S8L529EQAT;
+				INFOPLIST_FILE = VoyagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cesarjcarrillo.VoyagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Voyager;
+			};
+			name = Debug;
+		};
+		0ED245FD1F88381D00AF555F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S8L529EQAT;
+				INFOPLIST_FILE = VoyagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cesarjcarrillo.VoyagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Voyager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0ED245C21F88381D00AF555F /* Build configuration list for PBXProject "Voyager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ED245F31F88381D00AF555F /* Debug */,
+				0ED245F41F88381D00AF555F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0ED245F51F88381D00AF555F /* Build configuration list for PBXNativeTarget "Voyager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ED245F61F88381D00AF555F /* Debug */,
+				0ED245F71F88381D00AF555F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0ED245F81F88381D00AF555F /* Build configuration list for PBXNativeTarget "VoyagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ED245F91F88381D00AF555F /* Debug */,
+				0ED245FA1F88381D00AF555F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0ED245FB1F88381D00AF555F /* Build configuration list for PBXNativeTarget "VoyagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ED245FC1F88381D00AF555F /* Debug */,
+				0ED245FD1F88381D00AF555F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0ED245BF1F88381D00AF555F /* Project object */;
+}
